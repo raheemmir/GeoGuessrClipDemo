@@ -80,7 +80,7 @@ export function MapGuessingGame() {
 
             {/* Image */}
             <div className="h-96 overflow-hidden rounded-xl">
-                <img src={sample.path} className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}${sample.path}`} className="w-full h-full object-cover" />
             </div>
 
             {/* Map */}
